@@ -17,7 +17,7 @@ export const NewTask = () => {
     try {
       await axios.post("http://localhost:5248/api/Tareas/PostTarea", tarea);
     } catch (error) {
-      console.log("No se creó la tarea");
+      console.log("No se creó la tarea.");
     }
   }
 
